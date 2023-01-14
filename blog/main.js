@@ -13,7 +13,7 @@ $(document).ready(function() {
             .filter("." + value)
             .show("1000");
         }
-    })
+    });
 
     // add active btn to filter
     $(".filter-item").click(function() {
@@ -22,6 +22,6 @@ $(document).ready(function() {
 });
 
 // header background chande on scroll
-let header = document.querySelector("#header");
-window.addEventListener("scroll", () => {
-    header.classList.toggle("shadow", window.scrollY > 0);
+//let header = document.querySelector("#header");
+//window.addEventListener("scroll", () => {
+  //  header.classList.toggle("shadow", window.scrollY > 0);
