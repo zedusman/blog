@@ -17,7 +17,10 @@
     --text-color: #172317;
     --bg-color:#fff;
 }
-
+html{
+    scroll-behavior: smooth;
+    
+}
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -229,3 +232,7 @@ header.shadow.logo{
     font-size: 0.9rem;
     font-weight: 500;
 }
+
+:root {
+    color-scheme: light dark;
+  }
